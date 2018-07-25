@@ -1,0 +1,13 @@
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+MongoError: The field 'background' is not valid for an _id index specification. Specification: { v: 2, ns: "wiki.bruteforces", key: { _id: 1 }, name: "_id_1", background: true, unique: false }
+    at Function.MongoError.create (C:\wiki\node_modules\mongoose\node_modules\mongodb-core\lib\error.js:31:11)
+    at C:\wiki\node_modules\mongoose\node_modules\mongodb\lib\db.js:1093:80
+    at C:\wiki\node_modules\mongoose\node_modules\mongodb-core\lib\connection\pool.js:469:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickDomainCallback (internal/process/next_tick.js:218:9)
+Unhandled rejection MongoError: The field 'background' is not valid for an _id index specification. Specification: { v: 2, ns: "wiki.bruteforces", key: { _id: 1 }, name: "_id_1", background: true, unique: false }
+    at Function.MongoError.create (C:\wiki\node_modules\mongoose\node_modules\mongodb-core\lib\error.js:31:11)
+    at C:\wiki\node_modules\mongoose\node_modules\mongodb\lib\db.js:1093:80
+    at C:\wiki\node_modules\mongoose\node_modules\mongodb-core\lib\connection\pool.js:469:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
